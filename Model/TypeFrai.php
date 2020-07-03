@@ -1,13 +1,14 @@
 <?php
 
 
-class TypeClient
+class TypeFrai
 {
     private $id;
     private $libelle;
+    private $frai;
 
     /**
-     * TypeClient constructor.
+     * TypeFrai constructor.
      */
     public function __construct()
     {
@@ -43,6 +44,22 @@ class TypeClient
     public function setLibelle($libelle)
     {
         $this->libelle = $libelle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFrai()
+    {
+        return $this->frai;
+    }
+
+    /**
+     * @param mixed $frai
+     */
+    public function setFrai($frai)
+    {
+        $this->frai = $frai;
     }
 
 }

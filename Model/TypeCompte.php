@@ -1,13 +1,13 @@
 <?php
 
 
-class TypeClient
+class TypeCompte
 {
     private $id;
     private $libelle;
 
     /**
-     * TypeClient constructor.
+     * TypeCompte constructor.
      */
     public function __construct()
     {
@@ -44,5 +44,6 @@ class TypeClient
     {
         $this->libelle = $libelle;
     }
+
 
 }
