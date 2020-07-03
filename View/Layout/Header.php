@@ -6,9 +6,9 @@
     <meta name="description" content="Gestion des activites bancaires"/>
     <meta name="author" content="mballoSoft"/>
     <title>BP | HOME</title>
-    <link rel="stylesheet" href="./css/main.css"/>
-    <link rel="stylesheet" href="./css/compte.css"/>
-    <link rel="stylesheet" href="./css/client.css"/>
+    <link rel="stylesheet" href="http://localhost/MesProjets/Simplon/TPCompteClientPDO/Public/css/main.css"/>
+    <link rel="stylesheet" href="http://localhost/MesProjets/Simplon/TPCompteClientPDO/Public/css/compte.css"/>
+    <link rel="stylesheet" href="http://localhost/MesProjets/Simplon/TPCompteClientPDO/Public/css/client.css"/>
 </head>
 <body>
 <header>
