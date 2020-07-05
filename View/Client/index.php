@@ -12,7 +12,7 @@ include '../Layout/SideBarre.php';
 <article class="content">
     <fieldset>
         <legend>Creation Client</legend>
-        <form class="form" onsubmit="return post()" method="post" action="traittementclient.php">
+        <form class="form" onsubmit="return post()" method="post" action="add_CM">
             <div>
                 <select name="typeclient" id="typeclient" class="slct selectclt" onchange="typeClient()">
                     <option value="0">--Choix du Type de Client--</option>

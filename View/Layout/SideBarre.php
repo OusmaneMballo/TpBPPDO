@@ -6,10 +6,10 @@
             Dashboard
         </div>
         <div class="contener">
-            <a href="./View/Compte/index.php">Compte</a>
+            <a href="compte">Compte</a>
         </div>
         <div class="contener">
-            <a href="./View/Client/index.php">Client</a>
+            <a href="client">Client</a>
         </div>
         <div class="contener">
             Logout

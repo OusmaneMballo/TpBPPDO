@@ -27,10 +27,25 @@ class AccessdbDAO
         return $this->cnx;
     }
 
-    public function MAJ($requete)
+    /**
+     * @param $cnx
+     * @param $requete
+     * @return mixed
+     * On lui passe la chaine de connexion et une requete INSERT, UPDATE,
+     * ou DELETE
+     * puis elle nous retourne un prepareteStatement
+     */
+    public function MAJ($cnx, $requete)
     {
-        return $this->getConnexion()->prepare($requete);
+        return $cnx->prepare($requete);
     }
+
+    /**
+     * @param $requete
+     * @return mixed
+     * On la passe une requete SELECT, et elle nous
+     * retourne un tableau associatif.
+     */
     public function execute($requete)
     {
         return getConnexion()->query($requete)->fetch(PDO::FETCH_ASSOC);

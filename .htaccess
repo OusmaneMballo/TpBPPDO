@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^.$ index.php
+RewriteRule ^client$ View/Client/index.php
+RewriteRule ^compte$ View/Compte/index.php
+RewriteRule ^add_CM$ Controller/ClientMoralController.php

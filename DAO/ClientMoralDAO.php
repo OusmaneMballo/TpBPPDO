@@ -1,5 +1,5 @@
 <?php
-include './DAO/AccessdbDAO.php';
+include '../DAO/AccessdbDAO.php';
 
 class ClientMoralDAO
 {
@@ -21,13 +21,13 @@ class ClientMoralDAO
                                 `nom`, `adresse`, `numidentf`, `telephone`, 
                                 `email`, `login`, `password`)
                     VALUES (null ,? ,? ,? ,? ,? ,? ,? ,?)";
-
-        $prepare=$db->MAJ($requete);
+        $cnx=$db->getConnexion();
+        $prepare=$db->MAJ($cnx,$requete);
         try {
             $result=$prepare->execute(array($clientM->getRaisonSocial(),$clientM->getNom(),
                 $clientM->getAdresse(),$clientM->getDentifiant(),$clientM->getTelephone(),
                 $clientM->getEmail(), $clientM->getLogin(), $clientM->getPasswd()));
-            return $db->getConnexion()->lastInsertId();
+            return $cnx->lastInsertId();
         }catch(Exception  $e){
                 return null;
         }
