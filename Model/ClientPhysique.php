@@ -15,6 +15,7 @@ class ClientPhysique
     private $passwd;
     private $employeur;
     private $type_client;
+    private $telephone;
 
     /**
      * ClientPhysique constructor.
@@ -213,6 +214,22 @@ class ClientPhysique
     public function setTypeClient($type_client)
     {
         $this->type_client = $type_client;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTelephone()
+    {
+        return $this->telephone;
+    }
+
+    /**
+     * @param mixed $telephone
+     */
+    public function setTelephone($telephone)
+    {
+        $this->telephone = $telephone;
     }
 
 }

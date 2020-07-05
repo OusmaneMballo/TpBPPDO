@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f23644-c3f7-47e2-9216-b3e1acd88904" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/ClientMoralController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/ClientController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TPPhpProcedurale-master/.idea/TPphpProcedural.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAO/AccessdbDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/AccessdbDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAO/ClientMoralDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/ClientMoralDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/ClientMoralController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ClientMoralController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/ClientPhysiqueDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/ClientPhysiqueDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClientPhysique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClientPhysique.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/Client/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Client/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Layout/SideBarre.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Layout/SideBarre.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593964112998</updated>
-      <workItem from="1593964127981" duration="6038000" />
+      <workItem from="1593964127981" duration="8683000" />
+      <workItem from="1593975789125" duration="350000" />
+      <workItem from="1593976278776" duration="8254000" />
     </task>
     <servers />
   </component>
@@ -67,10 +69,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1593965293303">
+    <state x="476" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1593977298952">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="476" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1593965293303" />
+    <state x="476" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1593977298952" />
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1593964464079">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -79,13 +81,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="518" y="308" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1593966621543" />
-    <state x="378" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1593964131669">
+    <state x="378" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1593976280838">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="378" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1593964131669" />
-    <state x="339" y="172" key="run.anything.popup" timestamp="1593966934589">
+    <state x="378" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1593976280838" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1593976588264">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593966934589" />
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593976588264" />
   </component>
 </project>
