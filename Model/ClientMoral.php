@@ -6,6 +6,7 @@ class ClientMoral
     private $id;
     Private $raison_social;
     private $nom;
+    private $adresse;
     private $dentifiant;
     private $telephone;
     private $email;
@@ -49,6 +50,22 @@ class ClientMoral
     public function setRaisonSocial($raison_social)
     {
         $this->raison_social = $raison_social;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAdresse()
+    {
+        return $this->adresse;
+    }
+
+    /**
+     * @param mixed $adresse
+     */
+    public function setAdresse($adresse)
+    {
+        $this->adresse = $adresse;
     }
 
     /**

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../MesProjetsDITI4/BanqueDuPeupleV2/.idea/BanqueDuPeupleV2.iml" filepath="$PROJECT_DIR$/../../../MesProjetsDITI4/BanqueDuPeupleV2/.idea/BanqueDuPeupleV2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TPCompteClientPDO.iml" filepath="$PROJECT_DIR$/.idea/TPCompteClientPDO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TPPhpProcedurale-master/.idea/TPphpProcedural.iml" filepath="$PROJECT_DIR$/../TPPhpProcedurale-master/.idea/TPphpProcedural.iml" />
     </modules>
   </component>
 </project>
