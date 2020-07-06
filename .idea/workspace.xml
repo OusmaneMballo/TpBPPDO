@@ -4,8 +4,7 @@
     <list default="true" id="63f23644-c3f7-47e2-9216-b3e1acd88904" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../TPPhpProcedurale-master/.idea/TPphpProcedural.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/ClientMoralController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ClientMoralController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Client/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Client/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/CompteDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/CompteDAO.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <updated>1593964112998</updated>
       <workItem from="1593964127981" duration="8683000" />
       <workItem from="1593975789125" duration="350000" />
-      <workItem from="1593976278776" duration="12401000" />
+      <workItem from="1593976278776" duration="14250000" />
     </task>
     <servers />
   </component>
