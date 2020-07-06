@@ -91,12 +91,15 @@ include '../Layout/SideBarre.php';
                         <div class="row" id="salarier" hidden>
                             <label for="salairecp" id="lbsalairecp">Salaire</label>
                             <input type="text" class="inputcl" id="salairecp" name="salairecp"/>
-                            <select name='employeur' id='employeur' class='slct2 selectclt' onchange='employeurForm()'>
+                            <?php
+                            include 'http://localhost/MesProjets/Simplon/TPCompteClientPDO/Controller/ClientMoralController.php';
+                            ?>
+                            <!--<select name='employeur' id='employeur' class='slct2 selectclt' onchange='employeurForm()'>
                                 <option value='0'>--Employer--</option>
                                 <option value='1'>Empleur1</option>
                                 <option value='2'>Empleur1</option>
                                 <option value='3'>Ajouter son employeur</option>
-                            </select>
+                            </select>-->
                         </div>
                     </fieldset>
                 </div>

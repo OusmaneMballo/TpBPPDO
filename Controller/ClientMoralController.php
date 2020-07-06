@@ -9,16 +9,17 @@ function listCM()
     return $listclientM;
 }
 
-$listStatut=listStatutClient();
-if($listStatut!=null)
+$listclientM=listCM();
+if($listclientM!=null)
 {
-    echo "<select name='statutcp' id='statutcp' class='slct2 selectclt' onchange='salaryForm()'>";
-    echo "<option value='0'>--Statut Client--</option>";
-    while ($resultat=$listStatut->fetch(PDO::FETCH_ASSOC))
+    echo "<select name='employeur' id='employeur' class='slct2 selectclt' onchange='employeurForm()'>";
+    echo "<option value='0'>--Employer--</option>";
+    while ($resultat=$listclientM->fetch(PDO::FETCH_ASSOC))
     {
         $val=$resultat['id'];
 
-        echo "<option value='$val'>".$val."-".$resultat['libelle']."</option>";
+        echo "<option value='$val'>".$val."-".$resultat['nom']."</option>";
+        echo "<hr/>";
     }
     echo "</select>";
 }
