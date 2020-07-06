@@ -1,6 +1,6 @@
 <?php
-
-include '../DAO/AccessdbDAO.php';
+//include '../DAO/ClientMoralDAO.php';
+//include '../DAO/AccessdbDAO.php';
 class CompteDAO
 {
 

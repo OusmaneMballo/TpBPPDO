@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f23644-c3f7-47e2-9216-b3e1acd88904" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controller/CompteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/TypeCompteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAO/TypeCompteDAO.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TPPhpProcedurale-master/.idea/TPphpProcedural.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAO/CompteDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/CompteDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Compte/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Compte/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +60,7 @@
       <updated>1593964112998</updated>
       <workItem from="1593964127981" duration="8683000" />
       <workItem from="1593975789125" duration="350000" />
-      <workItem from="1593976278776" duration="14250000" />
+      <workItem from="1593976278776" duration="19208000" />
     </task>
     <servers />
   </component>
@@ -72,14 +76,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1593964464079" />
-    <state x="427" y="199" key="NewPhpClassDialog" timestamp="1593992508424">
+    <state x="427" y="199" key="NewPhpClassDialog" timestamp="1594026859906">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="427" y="199" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1593992508424" />
-    <state x="518" y="308" key="NewPhpFileDialog" timestamp="1593992853956">
+    <state x="427" y="199" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1594026859906" />
+    <state x="518" y="308" key="NewPhpFileDialog" timestamp="1594027298511">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="518" y="308" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1593992853956" />
+    <state x="518" y="308" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1594027298511" />
     <state x="378" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1593976280838">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
