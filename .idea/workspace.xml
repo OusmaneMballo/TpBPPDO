@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f23644-c3f7-47e2-9216-b3e1acd88904" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/ClientController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/TypeClientController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TPPhpProcedurale-master/.idea/TPphpProcedural.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/ClientMoralController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ClientMoralController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAO/ClientPhysiqueDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/ClientPhysiqueDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/ClientPhysique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClientPhysique.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/AccessdbDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/AccessdbDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/TypeClientDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/TypeClientDAO.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/Client/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Client/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <updated>1593964112998</updated>
       <workItem from="1593964127981" duration="8683000" />
       <workItem from="1593975789125" duration="350000" />
-      <workItem from="1593976278776" duration="8254000" />
+      <workItem from="1593976278776" duration="11762000" />
     </task>
     <servers />
   </component>
@@ -77,10 +76,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1593964464079" />
-    <state x="518" y="308" key="NewPhpFileDialog" timestamp="1593966621543">
+    <state x="427" y="199" key="NewPhpClassDialog" timestamp="1593992508424">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="518" y="308" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1593966621543" />
+    <state x="427" y="199" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1593992508424" />
+    <state x="518" y="308" key="NewPhpFileDialog" timestamp="1593992853956">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="518" y="308" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1593992853956" />
     <state x="378" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1593976280838">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -1,12 +1,12 @@
 <?php
-include '../Model/ClientMoral.php';
-include '../DAO/ClientMoralDAO.php';
+include '../Model/TypeClient.php';
+include '../DAO/TypeClientDAO.php';
 
-function listCM()
+function listStatutClient()
 {
-    $clientM=new ClientMoralDAO();
-    $listclientM=$clientM->foundAll();
-    return $listclientM;
+    $typeClientDao=new TypeClientDAO();
+    $listTypeClient=$typeClientDao->findAll();
+    return $listTypeClient;
 }
 
 $listStatut=listStatutClient();

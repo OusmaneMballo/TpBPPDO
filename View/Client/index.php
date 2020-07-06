@@ -80,11 +80,13 @@ include '../Layout/SideBarre.php';
                         <div class="row">
                             <label for="cnicp">CNI</label>
                             <input type="text" class="inputcl" id="cnicp" name="cnicp"/>
-                            <select name="statutcp" id="statutcp" class="slct2 selectclt" onchange="salaryForm()">
+                            <!--<select name="statutcp" id="statutcp" class="slct2 selectclt" onchange="salaryForm()">
                                 <option value="0">--Statut Client--</option>
-                                <option value="1">Salarier </option>
                                 <option value="2">Non Salarier </option>
-                            </select>
+                            </select>-->
+                            <?php
+                            include 'http://localhost/MesProjets/Simplon/TPCompteClientPDO/Controller/TypeClientController.php';
+                            ?>
                         </div>
                         <div class="row" id="salarier" hidden>
                             <label for="salairecp" id="lbsalairecp">Salaire</label>

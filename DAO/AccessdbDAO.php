@@ -48,7 +48,7 @@ class AccessdbDAO
      */
     public function execute($requete)
     {
-        return getConnexion()->query($requete)->fetch(PDO::FETCH_ASSOC);
+        return $this->getConnexion()->query($requete);
     }
 
 }
